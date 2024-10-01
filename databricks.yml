@@ -16,7 +16,7 @@ targets:
       host: https://dbc-4c3b08f7-6766.cloud.databricks.com/
       root_path: /Shared/.bundle/${bundle.name}
     run_as:
-      service_principal_name: haley_qa_dab_sp
+      service_principal_name: 85faf0d5-1c29-4ad0-b631-8b0285eb14f6
 
   prod:
     mode: production
@@ -24,4 +24,4 @@ targets:
       host: https://dbc-dab12945-7473.cloud.databricks.com/
       root_path: /Shared/.bundle/${bundle.name}
     run_as:
-      service_principal_name: haley_prod_dab_sp
+      service_principal_name: 6e92cc09-e1f1-4782-86e8-c4adcc67c455
